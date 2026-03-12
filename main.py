@@ -223,7 +223,6 @@ def main():
   └─────────────────────────────────────────────────────────────────┘
     """)
 
-    print("  Day 3 complete! Next up: Re-ranking with cross-encoders.\n")
 
 
 if __name__ == "__main__":
