@@ -5,7 +5,7 @@
 
 ---
 
-## What You'll Learn
+## Objectives
 
 - Why neither keyword search nor semantic search is enough on its own
 - How BM25 ranks documents using term frequency and inverse document frequency
@@ -51,7 +51,7 @@ day3-hybrid-search/
 
 ```bash
 # 1. Clone / navigate to the folder
-cd day3-hybrid-search
+cd hybrid-search
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -268,17 +268,6 @@ For large-scale deployment, consider:
 - [Elasticsearch](https://www.elastic.co/) — built-in BM25 + kNN hybrid search
 - [Qdrant](https://qdrant.tech/) / [Weaviate](https://weaviate.io/) — vector DBs with hybrid search support
 
----
-
-## Series Progress
-
-| Day | Topic | Status |
-|-----|-------|--------|
-| 1 | Basic RAG Pipeline | ✅ Done |
-| 2 | Chunking Strategies + Sentence Transformers + Semantic Search | ✅ Done |
-| **3** | **Hybrid Search: BM25 + Embeddings + RRF** | ✅ **You are here** |
-| 4 | Re-ranking with Cross-Encoders | 🔜 Next |
-| 5 | Advanced RAG: Query Expansion + HyDE | 🔜 Coming |
 
 ---
 
